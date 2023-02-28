@@ -1,7 +1,7 @@
 {
   "name": "weather",
   "version": "0.1.0",
-	"homepage": "https://elsammen.github.io/weather-api",
+  "homepage": "https://jamesmdesign.github.io/weather-api",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.3.0",
@@ -15,6 +15,7 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
+    "react-dotenv": "^0.1.3",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "recharts": "^2.4.3",
@@ -22,8 +23,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
